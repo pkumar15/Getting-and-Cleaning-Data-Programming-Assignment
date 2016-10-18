@@ -31,15 +31,15 @@ Y_train and Y_test list the activity id in the same order as the X_train and X_t
 
 Column headers are V1, V2, ... etc which is not very descriptive. The code replaces the column names in all input files.
 
-Step 1: Merges the training and the test sets to create one data set Create a complete training dataset and complete test dataset with columns for subject id, activity id and features Combine the training and test dataset (which have the same columns) by stacking the two datasets
+Step 1: Merges the training and the test sets to create one data set. Create a complete training dataset and complete test dataset with columns for subject id, activity id and features Combine the training and test dataset (which have the same columns) by stacking the two datasets
 
-Step 2: Extracts only the measurements on the mean and standard deviation for each measurement Keep only the columns that contain "mean" or "std" in the header name in addition to the columns for subject id and activity id. 88 column names meet this criteria.
+Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. Keep only the columns that contain "mean" or "std" in the header name in addition to the columns for subject id and activity id. 88 column names meet this criteria.
 
-Step 3:Uses descriptive activity names to name the activities in the data set Merge in activity name using the activity id
+Step 3:Uses descriptive activity names to name the activities in the data set. Merge in activity name using the activity id
 
-Step 4: Appropriately labels the data set with descriptive variable names Substitute the full word for abbreviations to make the dataset easier to understand (ie "time" replaces "t")
+Step 4: Appropriately labels the data set with descriptive variable names. Substitute the full word for abbreviations to make the dataset easier to understand (ie "time" replaces "t")
 
-Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject First group by activity and subject then calculate the mean of each column Export the new dataset as a text file
+Step 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. First group by activity and subject then calculate the mean of each column Export the new dataset as a text file
 
 The text file looks messy when opened using notepad. There are instructions for how to read the file back into R to double check the output is correct
 
