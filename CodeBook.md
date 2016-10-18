@@ -6,7 +6,7 @@ Read each file into R using "read.table"
 
 activity_labels lists the activities (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying) with a corresponding numeric ID (dimensions 6 2)
 
-X_train and X_test list the values for the following types of variables (dimensions 7352 561 for X_train and dimensions 2947 561)
+X_train and X_test list the values for the following types of variables (dimensions 7352 561 for X_train and dimensions 2947 561)                       
         mean(): Mean value                      
         std(): Standard deviation                       
         mad(): Median absolute deviation                        
